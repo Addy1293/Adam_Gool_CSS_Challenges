@@ -1,0 +1,61 @@
+.box_1{
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-color: limegreen;
+}
+
+.box_2{
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-color: lightblue;
+}
+
+.box_3{
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-color: yellow;
+}
+
+.box_4{
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-color: maroon;
+}
+
+.box_1:hover{
+  background-color: grey;
+}
+
+.box_2:hover{
+  background-color: grey;
+}
+
+.box_3:hover{
+  background-color: grey;
+  width: 600px;
+}
+
+.box_4:hover{
+  background-color: grey;
+  width: 50px;
+}
+
+.box_1:active{
+  background: orange;
+}
+
+.box_2:active{
+  background: orange;
+}
+
+.box_3:active{
+  background: orange;
+}
+
+.box_4:active{
+  background: orange;
+}

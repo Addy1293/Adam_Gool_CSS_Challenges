@@ -1,0 +1,15 @@
+.font_1{
+  font-family: spirax,cursive;
+  font-family: 'Mali', cursive;
+  font-family: 'Kodchasan', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mali|Spirax');
+
+.font_2{
+  font-family: 'Mali', cursive;
+  font-family: 'Kodchasan', sans-serif;
+  font-family: 'spirax', cursive;
+
+}

@@ -1,0 +1,47 @@
+h1{
+  font-family: sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+div lab{
+    background-color: limegreen;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: orange;
+}
+
+button{
+  color: darkblue;
+}
+
+.container{
+  color: grey;
+  padding: 2px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: purple;
+}

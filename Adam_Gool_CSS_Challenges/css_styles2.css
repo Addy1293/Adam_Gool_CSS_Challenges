@@ -1,0 +1,111 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: darkgrey;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-style: oblique;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+nav {
+  float: center;
+}
+
+aside {
+  float:left;
+  width:30%;
+  padding: 2%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, nav, footer {
+  padding: 10px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+a.link{
+  color:blue;
+}
+
+.ind{
+  text-indent: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  font-style: italic;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+p1 {
+  text-indent: 18px;
+}
+
+/* Nav bar */
+
+power{
+  list-style-type: none;
+  margin-bottom: 8px;
+  padding: 0;
+  width: 50%;
+  background-color: darkgrey;
+  position: fixed;
+  height: 100%;
+  /* overflow: visible; */
+
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  text-decoration: underline;
+}
+
+li a.active {
+  background-color: maroon;
+  color: white;
+}
+
+li a:hover:not(.active) {
+background-color: limegreen;
+color: white;
+}
